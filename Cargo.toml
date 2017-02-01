@@ -1,0 +1,15 @@
+[package]
+name = "boinc-ipc-manager"
+version = "0.0.1"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+description = "IPC manager for BOINC applications"
+repository = "https://github.com/vorot93/boinc-ipc-manager"
+keywords = ["game", "games"]
+license = "MIT"
+
+[dependencies]
+argparse = "*"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
+serde_xml = "*"
